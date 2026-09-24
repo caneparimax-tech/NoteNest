@@ -698,7 +698,7 @@ position: absolute;
 
    <div class="course-container">
     <?php foreach ($courses as $course): ?>
-        <a href="teststudentSectionHomepage.php?courseID=<?php echo urlencode($course['CourseID']); ?>&sectionID=<?php echo urlencode($course['SectionID']); ?>" class="course-card">
+        <a href="studentSectionHomepage.php?courseID=<?php echo urlencode($course['CourseID']); ?>&sectionID=<?php echo urlencode($course['SectionID']); ?>" class="course-card">
             <div class="course-title"><?php echo htmlspecialchars($course['CourseCode']); ?></div>
             <div class="course-description"><?php echo htmlspecialchars($course['CourseName']); ?></div>
         </a>
